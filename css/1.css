@@ -1,0 +1,108 @@
+*{
+	margin:0px;
+	font-family: 'Alegreya';
+	color:white;
+}
+body{
+	background-color:black;
+}
+section{
+	cursor:url("../img/mira.ico"),progress;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right: auto;
+	width:508px;
+	height: 478px;
+	position:relative;
+	background-image: url("../img/fondo.png");
+}
+div{
+	position:absolute;
+}
+#divperro{
+	left:10px;
+	top:300px;
+}
+#divperroaccion{
+	left:250px;
+	top:300px;
+}
+#divbullets{
+	left:40px;
+	top:380px;
+	float:left;
+}
+#divscore{
+	left:400px;
+	top:407px;
+}
+#perro{
+	width:100px;
+	height:auto;
+}
+#mira{
+	width:20px;
+	height: auto;
+}
+#perrorie{
+	width:60px;
+	height:78px;
+}
+#perrocelebra{
+	width:97px;
+	height:78px;
+}
+#perrocelebra2{
+	width:120px;
+	height:78px;
+}
+
+.bullet{
+	width:19px;
+	height:26px;
+	margin-top:10px;
+}
+.patoVivo{
+	width:50px;
+	height:50px;
+	/*no seleccionable*/
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}
+.patoVivoG{
+	width:100px;
+	height:100px;
+	/*no seleccionable*/
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}
+.patoMuerto{
+	width:25px;
+	height:50px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.patoMuertoG{
+	width:50px;
+	height:100px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
